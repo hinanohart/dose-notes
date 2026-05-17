@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Critical Theory companion to dose"
+authors:
+  - family-names: "Hart"
+    given-names: "Hinano"
+    alias: "hinanohart"
+type: software
+license: "NOASSERTION"
+repository-code: "https://github.com/hinanohart/dose-notes"
+url: "https://github.com/hinanohart/dose"
+version: "0.0.0"
+date-released: "2026-05-16"
+keywords:
+  - "critical-theory"
+  - "dual-use"
+  - "essays"
+  - "philosophy"
