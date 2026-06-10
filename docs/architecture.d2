@@ -1,0 +1,34 @@
+direction: down
+explanation: |md
+  ### dose-notes
+  **Critical Theory companion to dose — essays, philosophical commentary, and interpretive framing for the dual-use evaluation experiment.**
+| {near: top-center}
+
+dose_repo: "① dose repository\ncode metrics results" {shape: oval; style: {fill: "#6366f1"; font-color: "#ffffff"; stroke: "#4338ca"; bold: true; font-size: 18}}
+
+sources_zone: "Sources" {
+  style: {fill: "#fffbeb"; stroke: "#f59e0b"; font-color: "#92400e"; bold: true; font-size: 16}
+  reports: "dose/reports/\nPSI and DRC results"
+  template: "essays/_template.md\nnew essay template"
+  reports.style.fill: "#fef3c7"; reports.style.font-color: "#92400e"
+  template.style.fill: "#fef3c7"; template.style.font-color: "#92400e"
+}
+
+dose_notes: "② dose-notes repository\nthis repo" {style: {fill: "#0ea5e9"; font-color: "#ffffff"; stroke: "#0369a1"; bold: true; font-size: 18}}
+
+essays: "③ essays/\ndraft essays" {style: {fill: "#dcfce7"; font-color: "#065f46"; stroke: "#10b981"; bold: true}}
+
+academic: "④ Academic or public venues\npublished writing" {shape: cylinder; style: {fill: "#fdf2f8"; font-color: "#9d174e"; stroke: "#ec4899"; bold: true}}
+
+dose_repo -> dose_notes: "① grounds claims in"
+dose_notes -> essays: "② contains"
+sources_zone.template -> essays: "③ scaffolds"
+sources_zone.reports -> essays: "③ referenced by"
+essays -> academic: "④ published to"
+
+legend: "Legend" {
+  near: bottom-center
+  style: {fill: "#f8fafc"; stroke: "#cbd5e1"; font-size: 13}
+  e: "● entry/source"; c: "● core repo"; p: "● content"; b: "● reference"; d: "● output"
+  e.style.font-color: "#4338ca"; c.style.font-color: "#0369a1"; p.style.font-color: "#10b981"; b.style.font-color: "#f59e0b"; d.style.font-color: "#ec4899"
+}

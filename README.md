@@ -10,21 +10,9 @@ Essays, philosophical commentary, and interpretive framing for the `dose` dual-u
 
 ## Architecture
 
-```mermaid
-flowchart TD
-    dose_repo[dose repository<br>code metrics results]
-    dose_notes[dose-notes repository<br>this repo]
-    essays[essays/<br>draft essays]
-    template[essays/_template.md<br>new essay template]
-    reports[dose/reports/<br>PSI and DRC results]
-    academic[Academic or public venues<br>published writing]
-
-    dose_repo -->|grounds claims in| dose_notes
-    dose_notes --> essays
-    template -->|scaffolds| essays
-    reports -->|referenced by| essays
-    essays -->|published to| academic
-```
+<div align="center">
+  <img src="docs/architecture.png" alt="dose-notes architecture" width="840">
+</div>
 
 ## Contents
 
@@ -65,3 +53,4 @@ If you use this work, please cite it using the metadata in [CITATION.cff](CITATI
 ## License
 
 [CC-BY-4.0](LICENSE) — Hinano Hart
+
