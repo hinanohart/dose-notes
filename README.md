@@ -4,6 +4,10 @@ Critical Theory companion to [dose](https://github.com/hinanohart/dose).
 
 Essays, philosophical commentary, and interpretive framing for the `dose` dual-use evaluation experiment. Narrative and critical analysis live here; code and metrics stay in the `dose` core.
 
+## What this is
+
+`dose-notes` holds all interpretive work related to the [`dose`](https://github.com/hinanohart/dose) experiment: philosophical framing, critical theory essays, and draft writings intended for academic or public venues. The `dose` core library is deliberately free of narrative — this companion repository is where that narrative lives.
+
 ## Architecture
 
 ```mermaid
@@ -21,10 +25,6 @@ flowchart TD
     reports -->|referenced by| essays
     essays -->|published to| academic
 ```
-
-## What this is
-
-`dose-notes` holds all interpretive work related to the [`dose`](https://github.com/hinanohart/dose) experiment: philosophical framing, critical theory essays, and draft writings intended for academic or public venues. The `dose` core library is deliberately free of narrative — this companion repository is where that narrative lives.
 
 ## Contents
 
