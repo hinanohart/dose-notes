@@ -8,12 +8,12 @@ Essays, philosophical commentary, and interpretive framing for the `dose` dual-u
 
 ```mermaid
 flowchart TD
-    dose_repo[dose repository\ncode metrics results]
-    dose_notes[dose-notes repository\nthis repo]
-    essays[essays/\ndraft essays]
-    template[essays/_template.md\nnew essay template]
-    reports[dose/reports/\nPSI and DRC results]
-    academic[Academic or public venues\npublished writing]
+    dose_repo[dose repository<br>code metrics results]
+    dose_notes[dose-notes repository<br>this repo]
+    essays[essays/<br>draft essays]
+    template[essays/_template.md<br>new essay template]
+    reports[dose/reports/<br>PSI and DRC results]
+    academic[Academic or public venues<br>published writing]
 
     dose_repo -->|grounds claims in| dose_notes
     dose_notes --> essays
